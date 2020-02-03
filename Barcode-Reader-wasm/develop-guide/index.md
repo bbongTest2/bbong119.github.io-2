@@ -81,6 +81,7 @@ Also see [Dynamsoft JavaScript Barcode SDK for Node](https://github.com/dynamsof
   
 - Compact and Full Editions  
     As more and more features are being added to the library, the supporting wasm file is getting bigger and bigger. For flexibility, we provide two editions. The compact edition has less features but downloads and compiles faster, on the other hand, the full edition has all features built-in.  
+    
     Features | Compact edition | Full edition
     :-: | :-: | :-:
     wasm size1(gzip) | 810KB | 1.1 MB
