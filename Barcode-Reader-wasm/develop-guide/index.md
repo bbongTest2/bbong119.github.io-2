@@ -65,4 +65,5 @@ Postal Code: **USPS Intelligent Mail**, **PostNet**, **Planet**, **Australian Po
         - WebAssembly, Blob, URL/createObjectURL, Web Workers  
           These four features are required for the library to work.
      - Combining the requirements above results in the following table of supported browsers.  
+     
  **NOTE**: Apart from the browsers, the operating systems running on the target devices may also impose some limitations of their own that could restrict the use of the library. Therefore, the following table serves as a rough estimation instead of an accurate guideline. Browser compatibility ultimately depends on whether the browser on that particular operating system supports the features listed above.
