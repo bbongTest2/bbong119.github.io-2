@@ -5,7 +5,7 @@
 
 Also see [Dynamsoft JavaScript Barcode SDK for Node](https://github.com/dynamsoft-dbr/node-javascript-barcode).  
 
-## Quick Usage(#quick-usage)
+## Quick Usage
 ### Web
 ```
 <!DOCTYPE html>
@@ -26,8 +26,8 @@ Also see [Dynamsoft JavaScript Barcode SDK for Node](https://github.com/dynamsof
 ``` 
 
 ## Table of Content
-- [Quick Usage](quick-usage)
-- [Features](feature)
+- [Quick Usage](#Quick-Usage)
+- [Features](#Feature)
 - Live Demo
 - Getting Started: HelloWorld
 - Taking a closer look
