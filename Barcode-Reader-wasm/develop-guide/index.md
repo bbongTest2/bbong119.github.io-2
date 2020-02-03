@@ -49,12 +49,12 @@ Also see [Dynamsoft JavaScript Barcode SDK for Node](https://github.com/dynamsof
 ## Feature
 
 - Supported Symbologies:  
-1D barcode: **Code 39**, **Code 128**, **Code 93**, **Codabar**, **Interleaved 2 of 5 (ITF)**, **EAN-13**, **EAN-8**, **UPC-A**, **UPC-E**, **Industrial 2 of 5** (Code 2 of 5 Industry, Standard 2 of 5, Code 2 of 5), **Code 39 Extended**.  
-2D barcode: **PDF417**, **QR**, **DataMatrix**, **Aztec**, and **MaxiCode**.  
-GS1 Databar: **Omnidirectional**, **Truncated**, **Stacked**, **Stacked Omnidirectional**, **Expanded**, **Expanded Stacked** and **Limited**.  
-Patch Code  
-GS1 Composite Code  
-Postal Code: **USPS Intelligent Mail**, **PostNet**, **Planet**, **Australian Post**, **UK Royal Mail (RM4SCC)**.  
+    1D barcode: **Code 39**, **Code 128**, **Code 93**, **Codabar**, **Interleaved 2 of 5 (ITF)**, **EAN-13**, **EAN-8**, **UPC-A**, **UPC-E**, **Industrial 2 of 5** (Code 2 of 5 Industry, Standard 2 of 5, Code 2 of 5), **Code 39 Extended**.  
+    2D barcode: **PDF417**, **QR**, **DataMatrix**, **Aztec**, and **MaxiCode**.  
+    GS1 Databar: **Omnidirectional**, **Truncated**, **Stacked**, **Stacked Omnidirectional**, **Expanded**, **Expanded Stacked** and **Limited**.  
+    Patch Code  
+    GS1 Composite Code  
+    Postal Code: **USPS Intelligent Mail**, **PostNet**, **Planet**, **Australian Post**, **UK Royal Mail (RM4SCC)**.  
 
 - Supported Data Sources: **Blob**, **HTMLImageElement**, **HTMLVideoElement**, and **URL**, etc.  
 
@@ -78,4 +78,7 @@ Postal Code: **USPS Intelligent Mail**, **PostNet**, **Planet**, **Australian Po
     <sup>1</sup> On iOS, camera video streaming only works in Safari.  
     <sup>2</sup> On Edge, due to strict Same-origin policy, you must host the library in the same domain as your web page.  
     <sup>3</sup> Safari 11.2.2 ~ 11.2.6 are not supported.  
+  
+- Compact and Full Editions
+    As more and more features are being added to the library, the supporting wasm file is getting bigger and bigger. For flexibility, we provide two editions. The compact edition has less features but downloads and compiles faster, on the other hand, the full edition has all features built-in.
     
