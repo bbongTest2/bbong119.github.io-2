@@ -23,4 +23,25 @@ Also see [Dynamsoft JavaScript Barcode SDK for Node](https://github.com/dynamsof
     </script>
 </body>
 </html>
-```
+``` 
+
+# Table of Content
+- Quick Usage
+- Features
+- Live Demo
+- Getting Started: HelloWorld
+- Taking a closer look
+    - Initializing
+    - Configuring Scanner Settings
+    - Customizing the UI
+- Advanced Usage
+    - Print out log for better debugging
+    - Show found barcodes
+    - Read a specific area/region
+- Self-hosted Deployment
+- Changelog
+- How to Upgrade
+- API Documentation
+- License Activation
+- License Agreement
+- Contact Us
