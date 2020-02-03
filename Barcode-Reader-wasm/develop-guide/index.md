@@ -5,7 +5,7 @@
 
 Also see [Dynamsoft JavaScript Barcode SDK for Node](https://github.com/dynamsoft-dbr/node-javascript-barcode).  
 
-## Quick Usage
+## Quick Usage(#quick-usage)
 ### Web
 ```
 <!DOCTYPE html>
