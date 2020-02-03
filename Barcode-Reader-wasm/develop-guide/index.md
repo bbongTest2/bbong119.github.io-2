@@ -26,8 +26,8 @@ Also see [Dynamsoft JavaScript Barcode SDK for Node](https://github.com/dynamsof
 ``` 
 
 ## Table of Content
-- Quick Usage
-- Features
+- [Quick Usage](#quick-usage)
+- [Features](#feature)
 - Live Demo
 - Getting Started: HelloWorld
 - Taking a closer look
@@ -46,7 +46,7 @@ Also see [Dynamsoft JavaScript Barcode SDK for Node](https://github.com/dynamsof
 - License Agreement
 - Contact Us
 
-## Feature
+## Feature(#feature)
 
 - Supported Symbologies:  
     1D barcode: **Code 39**, **Code 128**, **Code 93**, **Codabar**, **Interleaved 2 of 5 (ITF)**, **EAN-13**, **EAN-8**, **UPC-A**, **UPC-E**, **Industrial 2 of 5** (Code 2 of 5 Industry, Standard 2 of 5, Code 2 of 5), **Code 39 Extended**.  
