@@ -61,4 +61,9 @@ Postal Code: **USPS Intelligent Mail**, **PostNet**, **Planet**, **Australian Po
 - Browser Compatibility:
     - Unlike normal server-based applications, this library requires some advanced features which fortunately are supported by all mainstream modern browsers. These advanced features are listed below:
         - MediaDevices/getUserMedia
-            - Required only for in-browser video streaming. If a browser doesn't have this API the Single Frame Mode is used automatically. If the API exists but doesn't work correctly, Single Frame Mode can be used as an alternative.
+          Required only for in-browser video streaming. If a browser doesn't have this API the Single Frame Mode is used automatically. If the API exists but doesn't work correctly, Single Frame Mode can be used as an alternative.  
+        - WebAssembly, Blob, URL/createObjectURL, Web Workers
+          These four features are required for the library to work.
+     - Combining the requirements above results in the following table of supported browsers.  
+     
+**NOTE**: Apart from the browsers, the operating systems running on the target devices may also impose some limitations of their own that could restrict the use of the library. Therefore, the following table serves as a rough estimation instead of an accurate guideline. Browser compatibility ultimately depends on whether the browser on that particular operating system supports the features listed above.
