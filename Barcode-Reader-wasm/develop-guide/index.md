@@ -70,7 +70,7 @@ Postal Code: **USPS Intelligent Mail**, **PostNet**, **Planet**, **Australian Po
     
     Browser Name | Version
     :-: | :-:
-    Chrome | v57+ (v59+ on Android/iOS1)
-    Firefox | v52+ (v55+ on Android/iOS1)
-    Edge2 | v16+
-    Safari3 | v11+
+    Chrome | v57+ (v59+ on Android/iOS^1)
+    Firefox | v52+ (v55+ on Android/iOS^1)
+    Edge^2 | v16+
+    Safari^3 | v11+
