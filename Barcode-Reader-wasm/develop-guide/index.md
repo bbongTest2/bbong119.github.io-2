@@ -74,3 +74,8 @@ Postal Code: **USPS Intelligent Mail**, **PostNet**, **Planet**, **Australian Po
     Firefox | v52+ (v55+ on Android/iOS<sup>1</sup>)
     Edge<sup>2</sup> | v16+
     Safari<sup>3</sup> | v11+
+    
+    <sup>1</sup> On iOS, camera video streaming only works in Safari.  
+    <sup>2</sup> On Edge, due to strict Same-origin policy, you must host the library in the same domain as your web page.  
+    <sup>3</sup> Safari 11.2.2 ~ 11.2.6 are not supported.  
+    
