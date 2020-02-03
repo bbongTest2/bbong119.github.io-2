@@ -25,7 +25,7 @@ Also see [Dynamsoft JavaScript Barcode SDK for Node](https://github.com/dynamsof
 </html>
 ``` 
 
-# Table of Content
+## Table of Content
 - Quick Usage
 - Features
 - Live Demo
@@ -45,3 +45,20 @@ Also see [Dynamsoft JavaScript Barcode SDK for Node](https://github.com/dynamsof
 - License Activation
 - License Agreement
 - Contact Us
+
+## Feature
+
+- Supported Symbologies:
+1D barcode: **Code 39**, **Code 128**, **Code 93**, **Codabar**, **Interleaved 2 of 5 (ITF)**, **EAN-13**, **EAN-8**, **UPC-A**, **UPC-E**, **Industrial 2 of 5** (Code 2 of 5 Industry, Standard 2 of 5, Code 2 of 5), **Code 39 Extended**.  
+2D barcode: **PDF417**, **QR**, **DataMatrix**, **Aztec**, and **MaxiCode**.  
+GS1 Databar: **Omnidirectional**, **Truncated**, **Stacked**, **Stacked Omnidirectional**, **Expanded**, **Expanded Stacked** and **Limited**.  
+Patch Code  
+GS1 Composite Code  
+Postal Code: **USPS Intelligent Mail**, **PostNet**, **Planet**, **Australian Post**, **UK Royal Mail (RM4SCC)**.  
+
+- Supported Data Sources: **Blob**, **HTMLImageElement**, **HTMLVideoElement**, and **URL**, etc.  
+
+- Browser Compatibility:
+    - Unlike normal server-based applications, this library requires some advanced features which fortunately are supported by all mainstream modern browsers. These advanced features are listed below:
+        - MediaDevices/getUserMedia
+            - Required only for in-browser video streaming. If a browser doesn't have this API the Single Frame Mode is used automatically. If the API exists but doesn't work correctly, Single Frame Mode can be used as an alternative.
