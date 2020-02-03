@@ -79,6 +79,29 @@ Also see [Dynamsoft JavaScript Barcode SDK for Node](https://github.com/dynamsof
     <sup>2</sup> On Edge, due to strict Same-origin policy, you must host the library in the same domain as your web page.  
     <sup>3</sup> Safari 11.2.2 ~ 11.2.6 are not supported.  
   
-- Compact and Full Editions
-    As more and more features are being added to the library, the supporting wasm file is getting bigger and bigger. For flexibility, we provide two editions. The compact edition has less features but downloads and compiles faster, on the other hand, the full edition has all features built-in.
+- Compact and Full Editions  
+    As more and more features are being added to the library, the supporting wasm file is getting bigger and bigger. For flexibility, we provide two editions. The compact edition has less features but downloads and compiles faster, on the other hand, the full edition has all features built-in.  
+    Features | Compact edition | Full edition
+    :-: | :-: | :-:
+    wasm size1(gzip) | 810KB | 1.1 MB
+    1D | √ | √
+    QR | √ | √
+    Mirco QR | X | √
+    PDF417 | √ | √
+    Mirco PDF417 | X | √
+    DataMatrix | √ | √
+    Aztec | X | √
+    MaxiCode | X | √
+    Patch Code | X | √
+    GS1 Composite Code | X | √
+    GS1 DataBar | X | √
+    Postal Code | X | √
+    DPM | X | √
+    getRuntimeSettings | √ | √
+    updateRuntimeSettings | √ | √
+    getIntermediateResults | X | √
+    initRuntimeSettingsWithString | X | √
+    outputSettingsToString | X | √
+    recommended scenario2 | To C | To B
+
     
