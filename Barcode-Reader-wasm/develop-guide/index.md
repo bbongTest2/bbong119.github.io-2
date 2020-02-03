@@ -26,8 +26,8 @@ Also see [Dynamsoft JavaScript Barcode SDK for Node](https://github.com/dynamsof
 ``` 
 
 ## Table of Content
-- [Quick Usage](#quick-usage)
-- [Features](#feature)
+- [Quick Usage](quick-usage)
+- [Features](feature)
 - Live Demo
 - Getting Started: HelloWorld
 - Taking a closer look
