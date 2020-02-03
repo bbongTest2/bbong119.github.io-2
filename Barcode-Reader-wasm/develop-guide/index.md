@@ -80,11 +80,11 @@ Also see [Dynamsoft JavaScript Barcode SDK for Node](https://github.com/dynamsof
     <sup>3</sup> Safari 11.2.2 ~ 11.2.6 are not supported.  
   
 - Compact and Full Editions  
-    As more and more features are being added to the library, the supporting wasm file is getting bigger and bigger. For flexibility, we provide two editions. The compact edition has less features but downloads and compiles faster, on the other hand, the full edition has all features built-in.  
+    As more and more features are being added to the library, the supporting `wasm` file is getting bigger and bigger. For flexibility, we provide two editions. The compact edition has less features but downloads and compiles faster, on the other hand, the full edition has all features built-in.  
     
     Features | Compact edition | Full edition
     :-: | :-: | :-:
-    wasm size<sup>1</sup>(gzip) | 810KB | 1.1 MB
+    `wasm` size<sup>1</sup>(gzip) | 810KB | 1.1 MB
     1D | √ | √
     QR | √ | √
     Mirco QR | X | √
@@ -105,7 +105,7 @@ Also see [Dynamsoft JavaScript Barcode SDK for Node](https://github.com/dynamsof
     outputSettingsToString | X | √
     recommended scenario<sup>2</sup> | To C | To B  
     
-    <sup>1</sup> The wasm file size is based on version 7.2.2. In later versions, the size may differ.  
+    <sup>1</sup> The `wasm` file size is based on version 7.2.2. In later versions, the size may differ.  
   
     <sup>2</sup> The compact edition downloads and compiles faster which makes it more suitable for the scenario where a customer only needs to scan a barcode once. On the contrary, in scenarios where an employee needs to continuously scan lots of barcodes or where specific uncommon barcodes or advanced features are required, use the full edition by simply setting the following before you call `loadWasm` or `CreateInstance`.  
     ```
