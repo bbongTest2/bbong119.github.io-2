@@ -18,9 +18,9 @@
 - [PDF Vectors](/DBR-Enhancements/pdf-vectors/index.md)  
 
 ## Extended Information of Dynamsoft Barcode Reader  
-- [Industrial solutions](/DBR-Extended-Info/industrial-solutions/index.md)  
-- [How to use parameters](/DBR-Extended-Info/how-to-use-parameters/index.md)  
--	[How to handle complicate images](/DBR-Extended-Info/how-to-handle-complicate-images/index.md)  
--	[License & Usage Tracking](/DBR-Extended-Info/license-and-usage-tracking/index.md)  
--	[Barcode basis knowledge](/DBR-Extended-Info/barcode-basis-knowledge/index.md)  
-- [Image processing knowledge](/DBR-Extended-Info/image-processing-knowledge/index.md)  
+- [Industrial solutions](/DBR-Extend-Info/industrial-solutions/index.md)  
+- [How to use parameters](/DBR-Extend-Info/how-to-use-parameters/index.md)  
+-	[How to handle complicate images](/DBR-Extend-Info/how-to-handle-complicate-images/index.md)  
+-	[License & Usage Tracking](/DBR-Extend-Info/license-and-usage-tracking/index.md)  
+-	[Barcode basis knowledge](/DBR-Extend-Info/barcode-basis-knowledge/index.md)  
+- [Image processing knowledge](/DBR-Extend-Info/image-processing-knowledge/index.md)  
