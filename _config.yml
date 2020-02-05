@@ -1,8 +1,8 @@
-homePage: /index.html
+homePage: /
 
-userGuide: /DBR-Basic-Info/user-guide/index.html
-userGuide_windows: /DBR-Basic-Info/user-guide/windows/index.html
-userGuide_linux: /DBR-Basic-Info/user-guide/linux/index.html
-userGuide_iOS: /DBR-Basic-Info/user-guide/iOS/index.html
-userGuide_android: /DBR-Basic-Info/user-guide/Android/index.html
-userGuide_wasm: /DBR-Basic-Info/user-guide/wasm/index.html
+userGuide: /DBR-Basic-Info/user-guide/
+userGuide_windows: /DBR-Basic-Info/user-guide/windows/
+userGuide_linux: /DBR-Basic-Info/user-guide/linux/
+userGuide_iOS: /DBR-Basic-Info/user-guide/iOS/
+userGuide_android: /DBR-Basic-Info/user-guide/Android/
+userGuide_wasm: /DBR-Basic-Info/user-guide/wasm/
