@@ -1,5 +1,6 @@
 ---
 layout: user-guide
+id: user_guide_wasm
 ---
 
 
