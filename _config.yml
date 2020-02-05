@@ -4,5 +4,5 @@ userGuide:
 userGuide_windows: /DBR-Basic-Info/user-guide/windows/index.html
 userGuide_linux: /DBR-Basic-Info/user-guide/Linux/index.html
 userGuide_iOS: /DBR-Basic-Info/user-guide/iOS/index.html
-userGuide_andriod: /DBR-Basic-Info/user-guide/Andriod/index.html
+userGuide_android: /DBR-Basic-Info/user-guide/Android/index.html
 userGuide_wasm: /DBR-Basic-Info/user-guide/wasm/index.html
