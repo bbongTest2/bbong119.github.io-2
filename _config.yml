@@ -1,8 +1,8 @@
 homePage: README.html
 
 userGuide: 
-userGuide_windows:
-userGuide_linux:
-userGuide_iOS:
-userGuide_andriod:
-userGuide_wasm:
+userGuide_windows: /DBR-Basic-Info/user-guide/windows/index.html
+userGuide_linux: /DBR-Basic-Info/user-guide/Linux/index.html
+userGuide_iOS: /DBR-Basic-Info/user-guide/iOS/index.html
+userGuide_andriod: /DBR-Basic-Info/user-guide/Andriod/index.html
+userGuide_wasm: /DBR-Basic-Info/user-guide/wasm/index.html
