@@ -36,9 +36,9 @@
 <h2 id="user-guide"><a href={{ site.userGuide }}>User Guide</a></h2>
 <ul>
   <if condition= ${{ page.id }} eq "user_guide_windows">
-     <li><a href={{ site.userGuide_windows } class="currentPageColour"}>Windows user guide</a></li>
+     <li><a href={{ site.userGuide_windows }} class="currentPageColour">Windows user guide</a></li>
     <else/>
-     <li><a href={{ site.userGuide_windows } class="otherLinkColour"}>Windows user guide</a></li>
+     <li><a href={{ site.userGuide_windows }} class="otherLinkColour">Windows user guide</a></li>
     </if>
   
   <if condition= ${{ page.id }} eq "user_guide_linux">
