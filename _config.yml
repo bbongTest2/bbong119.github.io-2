@@ -1,6 +1,6 @@
-homePage: README.html
+homePage: /README.html
 
-userGuide: 
+userGuide: /DBR-Basic-Info/user-guide/index.html
 userGuide_windows: /DBR-Basic-Info/user-guide/windows/index.html
 userGuide_linux: /DBR-Basic-Info/user-guide/Linux/index.html
 userGuide_iOS: /DBR-Basic-Info/user-guide/iOS/index.html
