@@ -1,5 +1,5 @@
 ---
-layout: userGuide
+layout: user-guide
 ---
 
 
