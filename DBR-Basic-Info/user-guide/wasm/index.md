@@ -1,3 +1,8 @@
+---
+layout: userGuide
+---
+
+
 # Dynamsoft JavaScript Barcode SDK for Web  
 ![Dynamsoft JavaScript Barcode SDK](https://www.dynamsoft.com/blog/wpcontent/uploads/2018/12/blog_dbr6.4.1db06493aba126f0c7f177687cf56a9038dd655a1fd2d4374ab571ce738111858.png)  
 
