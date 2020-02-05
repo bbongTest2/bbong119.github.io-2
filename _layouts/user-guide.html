@@ -21,6 +21,12 @@
 <!-- End Jekyll SEO tag -->
 
     <link rel="stylesheet" href="/assets/css/style.css?v=b8601a47f85e9c71565aa6c079c8988cd98cc1e7">
+    
+    <style>
+    .currentPageColour{ background:#D3D3D3; color: #F4A460 }
+    .otherLinkColour { color: #696969 }
+      </style>
+    
   </head>
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
@@ -30,9 +36,10 @@
 <h2 id="user-guide"><a href={{ site.userGuide }}>User Guide</a></h2>
 <ul>
   <if condition= ${{ page.id }} eq "overall_user_guide">
-     <li><a href={{ page.id }}>Windows user guide</a></li>
+     <li><a href={{ page.id } class="currentPageColour"}>Windows user guide</a></li>
+    <else/>
+     <li><a href={{ page.id } class="otherLinkColour"}>Windows user guide</a></li>
     </if>
-  <li><a href={{ site.userGuide_windows }}>Windows user guide</a></li>
   <li><a href={{ site.userGuide_linux }}>Linux user guide</a></li>
   <li><a href={{ site.userGuide_iOS }}>iOS user guide</a></li>
   <li><a href={{ site.userGuide_android }}>Android user guide</a></li>
