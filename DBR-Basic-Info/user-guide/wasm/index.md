@@ -153,3 +153,4 @@ Create an HTML file with the following content. Deploy it to your web server if 
 </body>
 </html>
 ```
+[Try in JSFiddle](https://jsfiddle.net/DynamsoftTeam/pL4e7yrd/)
