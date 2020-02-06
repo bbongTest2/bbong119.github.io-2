@@ -2,7 +2,7 @@
   
 ## Basic Information of Dynamsoft Barcode Reader  
 - [Overview](/DBR-Basic-Info/overview/index.md)  
-- [User Guides](/DBR-Basic-Info/user-guide/index.md)  
+- [User Guides]({{ site.userGuide }})  
 - [Evaluation Tools](/DBR-Basic-Info/evaluation-tools/index.md)  
 - [Security Issues](/DBR-Basic-Info/security-issues/index.md)  
 
