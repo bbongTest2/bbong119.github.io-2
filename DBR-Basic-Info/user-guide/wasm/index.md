@@ -118,3 +118,38 @@ Also see [Dynamsoft JavaScript Barcode SDK for Node](https://github.com/dynamsof
     Dynamsoft.BarcodeReader._bUseFullFeature = true;
     ```
     
+## Live Demo  
+The following is a screenshot of the live demo. Try it [here](https://demo.dynamsoft.com/dbr_wasm/barcode_reader_javascript.html).  
+    
+## Getting Started: HelloWorld  
+This section will help you use the library to build a simple web application to decode barcodes from a video stream.  
+
+**Basic Requirements**  
+- Internet connection  
+- Supported Browser  
+- Camera access  
+
+### Step One: Write the code in one minute!  
+Create an HTML file with the following content. Deploy it to your web server if you have it already.  
+
+- The sample is missing one piece of information to work correctly which is the field `PRODUCT-KEYS`, you can acquire a trial key [here](https://www.dynamsoft.com/CustomerPortal/Portal/TrialLicense.aspx) to replace it.    
+- If you don't have a ready-to-use web server and you happen to have a package manager like [npm](https://www.npmjs.com/package/http-server) or [yarn](https://yarnpkg.com/en/package/http-server), you can set up a simple http server in minutes. Check out http-server on npm or yarn.  
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+    <!-- Please visit https://www.dynamsoft.com/CustomerPortal/Portal/TrialLicense.aspx to get a trial license. -->
+    <script src="https://cdn.jsdelivr.net/npm/dynamsoft-javascript-barcode@7.3.0-v0/dist/dbr.js" data-productKeys="PRODUCT-KEYS"></script>
+    <script>
+        let scanner = null;
+        (async()=>{
+            scanner = await Dynamsoft.BarcodeScanner.createInstance();
+            scanner.onFrameRead = results => {console.log(results);};
+            scanner.onUnduplicatedRead = (txt, result) => {alert(txt);};
+            await scanner.show();
+        })();
+    </script>
+</body>
+</html>
+```
