@@ -1,5 +1,5 @@
 ---
-layout: evaluation_tools
+layout: evaluation-tools
 id: evaluation_tools_main
 ---
 
