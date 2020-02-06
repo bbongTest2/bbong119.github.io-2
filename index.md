@@ -1,7 +1,7 @@
 # Dynamsoft Barcode Reader Documentation  
   
 ## Basic Information of Dynamsoft Barcode Reader  
-- [Overview]({{ stie.overview }})  
+- [Overview]({{ stie.dbrOverview }})  
 - [User Guides]({{ site.userGuide }})  
 - [Evaluation Tools]({{ site.evaluationTools }})  
 - [Security Issues]({{ site.securityIssues }})  
