@@ -11,7 +11,7 @@ userGuide_wasm: /DBR-Basic-Info/user-guide/wasm/
 
 evaluationTools: /DBR-Basic-Info/evaluation-tools/
 evaluationTools_batchTestSuite: /DBR-Basic-Info/evaluation-tools/batch-test-suite/
-evaluationTools_interactiveTtest: /DBR-Basic-Info/evaluation-tools/interactive-test/
+evaluationTools_interactiveTest: /DBR-Basic-Info/evaluation-tools/interactive-test/
 evaluationTools_testSetImages: /DBR-Basic-Info/evaluation-tools/test-set-images/
 
 securityIssues: /DBR-Basic-Info/security-issues/  
