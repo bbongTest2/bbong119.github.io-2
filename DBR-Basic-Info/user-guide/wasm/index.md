@@ -158,7 +158,7 @@ Create an HTML file with the following content. Deploy it to your web server if 
 ### Step Two: Tackle a few issues.
 Open the file in your browser and there will be a pop-up asking for permission to access the camera. Once the access is granted, you will see the video stream in the default UI of the **BarcodeScanner**.  
 
-&nbsp;**Note**: If you don't see the pop-up, wait a few seconds for the initialization to finish.  
+**Note**: If you don't see the pop-up, wait a few seconds for the initialization to finish.  
 
 #### General Issue one
 If you open the HTML file as `file:///` or `http://`, the following error may appear in the browser console
