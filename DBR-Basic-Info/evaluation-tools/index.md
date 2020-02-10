@@ -16,7 +16,7 @@ Test if update
 <head>
     <meta charset="utf-8" />
     <!--import引入-->
-    <link rel="import" href="/batch-test-suite/index.html" id="page1"/>
+    <link rel="import" href="{{ stie.evaluationTools_batchTestSuite }}" id="page1"/>
 </head>
 
 <script type="text/javascript">
