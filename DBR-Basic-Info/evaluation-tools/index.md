@@ -29,3 +29,5 @@ Test if update
 
 <iframe src="{{ site.evaluationTools_batchTestSuite }}/index.html" ></iframe>
 </body>
+
+{{ site.pages }}
