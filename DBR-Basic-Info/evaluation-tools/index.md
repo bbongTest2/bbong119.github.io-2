@@ -12,3 +12,5 @@ evaluation tools overview.
 Test if update
 
 {{ site.pages[0] }}
+
+{{ site.pages[1] }}
