@@ -5,4 +5,4 @@ id: evaluation_tools_main
 
 evaluation tools overview.  
 
-{{ page.url }}
+{{ batch-test-suite/page.url }}
