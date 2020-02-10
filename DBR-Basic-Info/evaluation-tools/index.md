@@ -12,6 +12,7 @@ evaluation tools overview.
 {{ evaluation_tools_batchTestSuite.url }}  
 
 Test if update
+{include file="{{ site.evaluationTools_batchTestSuite }}/index.html"}
 
 <head>
     <meta charset="utf-8" />
