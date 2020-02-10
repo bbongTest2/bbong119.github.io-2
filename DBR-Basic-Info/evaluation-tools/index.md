@@ -19,6 +19,6 @@ Test if update
     <link rel="import" href="/batch-test-suite/index.html" id="page1"/>
 </head>
 
-        <script type="text/javascript">
-            document.write(page1.import.body.innerHTML);
-        </script>
+<script type="text/javascript">
+    document.write(page1.import.body.innerHTML);
+</script>
