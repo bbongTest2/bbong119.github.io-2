@@ -13,4 +13,4 @@ evaluation tools overview.
 
 Test if update
 
-{{ site.pages }}
+{{ site.pages.evaluation_tools_batchTestSuite }}
