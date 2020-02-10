@@ -23,3 +23,7 @@ Test if update
 <script type="text/javascript">
     document.write(page1.import.body.innerHTML);
 </script>
+
+{include file="{{ site.evaluationTools_batchTestSuite }}/index.html"}  
+
+<include src="{{ site.evaluationTools_batchTestSuite }}/index.html"></include>
