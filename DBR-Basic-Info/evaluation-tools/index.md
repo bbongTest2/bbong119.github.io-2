@@ -5,6 +5,14 @@ id: evaluation_tools_main
 
 evaluation tools overview.  
 
-{{site.pages[0].content}}  
+{% for my_page in site.page %}
+    {% if my_page.id == "evaluation_tools_batchTestSuite" %}
+            {{my_page.content}}
+    {%endif%}
+{%endfor%} 
 
-{{site.pages[1].content}}
+{% for my_page in site.page %}
+    {% if my_page.id == "evaluation_tools_interactiveTest" %}
+            {{my_page.content}}
+    {%endif%}
+{%endfor%} 
