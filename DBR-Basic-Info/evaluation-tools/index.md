@@ -20,10 +20,13 @@ Test if update
     <link rel="import" href="{{ site.evaluationTools_batchTestSuite }}index.html=" id="page1"/>
 </head>
 
+<body>
 <script type="text/javascript">
     document.write(page1.import.body.innerHTML);
 </script>
 
 {include file="{{ site.evaluationTools_batchTestSuite }}/index.html"}  
 
+<script src="js/include.js"></script>
 <include src="{{ site.evaluationTools_batchTestSuite }}/index.html"></include>
+</body>
