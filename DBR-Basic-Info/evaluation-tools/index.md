@@ -11,4 +11,4 @@ evaluation tools overview.
 
 Test if update
 
-{{ site.pages.first.id }}
+{{ site.pages[0] }}
