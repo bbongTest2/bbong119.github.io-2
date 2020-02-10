@@ -11,6 +11,6 @@ evaluation tools overview.
 
 Test if update
 
-{{ site.pages[0] }}
+{{ site.pages[0].content }}
 
-{{ site.pages[1] }}
+{{ site.pages[1].content }}
