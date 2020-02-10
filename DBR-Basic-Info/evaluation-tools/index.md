@@ -15,7 +15,4 @@ evaluation tools overview.
 {% if my_page.id == 'evaluation_tools_interactiveTest' %}
 {{ my_page.content }}  
 {%endif%}
-{%endfor%} 
-  
-  
-test update11
+{%endfor%}
