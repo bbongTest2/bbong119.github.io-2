@@ -9,8 +9,6 @@ evaluation tools overview.
 
 {{ evaluation_tools_main.url }}  
 
-{{ evaluation_tools_batchTestSuite.url }}  
-
 Test if update
 
 {{ site.pages.first.id }}
