@@ -6,7 +6,6 @@ sourceCodeUrl: https://github.com/BBong119/bbong119.github.io/blob/master/DBR-Ba
 
 
 # Dynamsoft JavaScript Barcode SDK for Web  
-<p align="right"><a href="{{ page.sourceCodeUrl }} " align="right" class="#otherLinkColour">Edit<img src="{{ site.editIcon }}" width="20px" height="15px" /></a></p>
 ![Dynamsoft JavaScript Barcode SDK](https://www.dynamsoft.com/blog/wpcontent/uploads/2018/12/blog_dbr6.4.1db06493aba126f0c7f177687cf56a9038dd655a1fd2d4374ab571ce738111858.png)  
 
 [Dynamsoft BarcodeReader SDK for Web](https://www.dynamsoft.com/Products/barcode-recognition-javascript.aspx) is a JavaScript API for barcode scanning based on the **WebAssembly** technology. It supports real-time localization and decoding of various barcode types. The library is capable of scanning barcodes from static images as well as directly from live video streams. It also supports reading multiple barcodes at once.  
