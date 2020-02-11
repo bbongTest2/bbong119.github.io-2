@@ -34,7 +34,11 @@
       
       <h1 id="documentation-home-page"><a href={{ site.homePage }}>Documentation Home Page</a></h1>
 
-<h2 id="evaluation-tools"><a href={{ site.evaluationTools }}>Evaluation Tools</a></h2>
+{% if page.id == 'evaluation_tools_main' %}
+      <h2 id="evaluation-tools"><a href={{ site.evaluationTools }} class="currentPageHeader">Evaluation Tools</a></h2>
+{% else %}
+      <h2 id="evaluation-tools"><a href={{ site.evaluationTools }}>Evaluation Tools</a></h2>
+{% endif %}
 <ul>
 
     {% if page.id == 'evaluation_tools_batchTestSuite' %}
