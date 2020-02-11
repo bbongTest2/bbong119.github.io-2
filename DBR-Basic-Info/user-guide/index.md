@@ -9,5 +9,5 @@ user guide of dbr.
 
 [ios]({{ site.userGuide_iOS }})  
 
-<p align="right"><a href="{{ page.sourceCodeUrl }}" align="right"><img src="{{ site.editIcon }}" height="50" width="70" alt="Edit Icon" />edit</a></p>
+<p align="right"><a href="{{ page.sourceCodeUrl }}" align="right"><img src="{{ site.editIcon }}" alt="Edit Icon" />edit</a></p>
 
