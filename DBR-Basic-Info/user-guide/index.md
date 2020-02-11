@@ -1,6 +1,7 @@
 ---
 layout: user-guide
 id: user_guide_main
+sourceCodeUrl: https://github.com/BBong119/bbong119.github.io/blob/master/DBR-Basic-Info/user-guide/index.md
 ---
 
 
@@ -8,5 +9,5 @@ user guide of dbr.
 
 [ios]({{ site.userGuide_iOS }})  
 
-<p align="right"><a href="https://github.com/BBong119/bbong119.github.io/blob/master/DBR-Basic-Info/user-guide/index.md" align="right">!<img src="{{ site.editIcon }}"  alt="Edit Icon" />edit</a></p>
+<p align="right"><a href="{{ page.sourceCodeUrl }}" align="right"><img src="{{ site.editIcon }}" height="200" width="200" alt="Edit Icon" />edit</a></p>
 
