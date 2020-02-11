@@ -6,7 +6,3 @@ sourceCodeUrl: https://github.com/BBong119/bbong119.github.io/blob/master/DBR-Ba
 
 
 user guide of dbr.  
-
-
-<p align="right"><a href="{{ page.sourceCodeUrl }} " align="right" class="#otherLinkColour">Edit<img src="{{ site.editIcon }}" width="20px" height="15px" /></a></p>
-
