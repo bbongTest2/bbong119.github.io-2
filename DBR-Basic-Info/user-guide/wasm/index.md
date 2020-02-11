@@ -183,34 +183,3 @@ General Issue Two
 For testing purposes, a self-signed certificate can be used when configuring HTTPS. When accessing the site, the browser might say "the site is not secure". In this case, go to the certificate settings and trust this certificate.
 
 In a production environment, you will need a valid HTTPS certificate that does not have this issue. If you don't have one yet, you can get a free one from Let’s Encrypt. Of course, you are advised to apply for a paid certificate from companies such as Verisign, GeoTrust, etc.
-
-Step Three: Time to scan!
-Put something with a barcode in front of the camera and you'll see it located and decoded right in the UI.
-
-Step Four: Dive into the code
-Now, take a look at the sample code. You can find that there is nothing but two scripts inside the <body>
-
-The following script includes the core library in the application via a jsDelivr CDN
-
-<script src="https://cdn.jsdelivr.net/npm/dynamsoft-javascript-barcode@7.3.0-v0/dist/dbr.js" data-productKeys="PRODUCT-KEYS"></script>
-The same can be done with other CDNs like unpkg
-
-<script src="https://unpkg.com/dynamsoft-javascript-barcode@7.3.0-v0/dist/dbr.js" data-productKeys="PRODUCT-KEYS"></script>
-NOTE: Since we do change the library a bit in each release, to make sure your application doesn't get interrupted by automatic updates, use a specific version in your production environment as shown above. Using a general major version like @7 is not recommended.
-
-The following script initializes and uses the library
-
-<script>
-  let scanner = null;
-  (async()=>{
-      scanner = await Dynamsoft.BarcodeScanner.createInstance();
-      scanner.onFrameRead = results => {console.log(results);};
-      scanner.onUnduplicatedRead = (txt, result) => {alert(txt);};
-      await scanner.show();
-  })();
-</script>
-For now, pay attention to the following two events.
-
-onFrameRead This event is triggered after each single frame is scanned. The results object contains all the barcode results that the library found on this frame.
-onUnduplicatedRead This event is triggered when a new barcode (not a duplicate) is found. txt holds the barcode text value while result is an object that holds details of the found barcode.
-In the following sections, you'll find more detailed information on how the library works and how you can customize it to your needs.
